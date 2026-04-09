@@ -81,6 +81,7 @@ public class CalculoHP {
         p.add(BtnEnviar);
 
         janela.add(p);
+        janela.setLocationRelativeTo(null);
         janela.setLayout(new FlowLayout());
         janela.setVisible(true);
     }

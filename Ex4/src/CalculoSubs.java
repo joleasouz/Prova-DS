@@ -76,6 +76,7 @@ public class CalculoSubs {
         p.add(BtnEnviar);
 
         janela.add(p);
+        janela.setLocationRelativeTo(null);
         janela.setLayout(new FlowLayout());
         janela.setVisible(true);
     }

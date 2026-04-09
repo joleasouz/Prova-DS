@@ -22,7 +22,7 @@ public class Formulario {
         janela = new JFrame();
         janela.setLayout(new FlowLayout());
         janela.setTitle("Logística Express");
-        janela.setSize(500,600);
+        janela.setSize(300,400);
         janela.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
 
         distancia = new JTextField(25);

@@ -18,7 +18,7 @@ public class Compra {
         janela = new JFrame();
         janela.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
         janela.setLayout(new FlowLayout());
-        janela.setSize(400, 500);
+        janela.setSize(300, 400);
         janela.setLocationRelativeTo(null);
         janela.setTitle("Calculo de Desconto");
         
