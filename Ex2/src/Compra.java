@@ -9,10 +9,8 @@ import javax.swing.JTextField;
 
 public class Compra {
     JFrame janela;
-    JTextField valorC;
-    JTextField cupom;
-    JLabel textoValor;
-    JLabel textoCupom;
+    JTextField valorC, cupom;
+    JLabel textoValor, textoCupom;
     JPanel p;
     JButton BtnEnviar;
 
@@ -22,6 +20,7 @@ public class Compra {
         janela.setLayout(new FlowLayout());
         janela.setSize(400, 500);
         janela.setLocationRelativeTo(null);
+        janela.setTitle("Calculo de Desconto");
         
         textoValor = new JLabel("Valor da Compra: ");
         valorC = new JTextField(25);

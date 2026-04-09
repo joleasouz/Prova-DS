@@ -12,11 +12,8 @@ import javax.swing.JTextField;
 public class Formulario {
     JFrame janela;
     JPanel p;
-    JLabel textoD;
-    JLabel textoP;
-    JLabel textoE;
-    JTextField distancia;
-    JTextField peso;
+    JLabel textoD, textoP, textoE;
+    JTextField distancia, peso;
     JRadioButton expresso, normal;
     ButtonGroup BtnG;
     JButton BtnEnviar;
