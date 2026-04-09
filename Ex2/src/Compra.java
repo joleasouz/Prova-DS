@@ -50,6 +50,7 @@ public class Compra {
         p.add(cupom);
         p.add(BtnEnviar);
 
+        janela.setResizable(false);
         janela.add(p);
         janela.setVisible(true);
     }

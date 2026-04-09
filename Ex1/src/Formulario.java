@@ -67,6 +67,7 @@ public class Formulario {
         JOptionPane.showMessageDialog(null, "O valor do frete é: "+ v);
         });
 
+        janela.setResizable(false);
         janela.setLocationRelativeTo(null);
         janela.add(p);
         janela.setVisible(true);   

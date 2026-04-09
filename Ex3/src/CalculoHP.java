@@ -80,6 +80,7 @@ public class CalculoHP {
         p.add(dificil);
         p.add(BtnEnviar);
 
+        janela.setResizable(false);
         janela.add(p);
         janela.setLocationRelativeTo(null);
         janela.setLayout(new FlowLayout());

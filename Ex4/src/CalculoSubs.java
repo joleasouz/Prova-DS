@@ -75,6 +75,7 @@ public class CalculoSubs {
         p.add(Twitch);
         p.add(BtnEnviar);
 
+        janela.setResizable(false);
         janela.add(p);
         janela.setLocationRelativeTo(null);
         janela.setLayout(new FlowLayout());
